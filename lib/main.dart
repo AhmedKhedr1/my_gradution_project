@@ -54,6 +54,7 @@ class _MyAppState extends State<MyApp> {
         },)
       ],
       child: MaterialApp(
+        darkTheme: ThemeData.light(),
           routes: {
             Login_screen.id: (context) => const Login_screen(),
             Start_screen.id: (context) => const Start_screen(),

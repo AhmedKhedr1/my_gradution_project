@@ -19,6 +19,8 @@ class Home_screen extends StatelessWidget {
     return Scaffold(
      
       appBar: AppBar(
+
+        automaticallyImplyLeading: false,
         elevation: 0,
         backgroundColor: KPrimaryColor,
         actions:<Widget>[ 
